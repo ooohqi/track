@@ -1,0 +1,174 @@
+.row11{
+    box-sizing: border-box;
+    display: -webkit-flex;
+    -webkit-justify-content: space-around;
+}
+.row11 .ConDataRowChild{
+    color: #fff;
+
+}
+.row11 .ConDataRowChild:first-child{
+    width: 33.33%;
+    background: #009688;
+}
+.row11 .ConDataRowChild:nth-child(2){
+    width: 33.33%;
+    background: #fff;
+    color: #333333;
+}
+.row11 .ConDataRowChild:nth-child(3){
+    width: 33.33%;
+    background: #546e7a;
+}
+.row11 .ConDataRowChild .percent{
+    padding: 20px;
+}
+.row11 .ConDataRowChild .percent h5{
+    line-height: 50px;
+    font-size: 24px;
+}
+.row11 .ConDataRowChild .percent p{
+    line-height: 24px;
+}
+.row11 .ConDataRowChild .linkBtn{
+    width: 100%;
+    border-top:1px solid #20988d;
+    box-sizing: border-box;
+    line-height: 60px;
+    padding: 0 20px;
+}
+.row11 .ConDataRowChild .linkBtn a{
+    color: #ffab40;
+    font-weight: 700;
+}
+.row11 .ConDataRowChild .linkBtn a:first-child{
+    margin-right: 22px;
+}
+.row11 .ConDataRowChild .linkBtn a:hover{
+    color:#ffd8a6;
+    text-decoration: underline;
+}
+.row11 .ConDataRowChild:nth-child(2) .linkBtn{
+    border-top:1px solid #ececec;
+}
+.row11 .ConDataRowChild:nth-child(3) .linkBtn{
+    border-top:1px solid #637882;
+}
+
+.row12 .ConDataRowChild{
+    background: #fff;
+    box-sizing: border-box;
+}
+.row12 .ConDataRowChild:first-child{
+    width: 33.33%;
+}
+.row12 .ConDataRowChild:nth-child(2){
+    width: 33.33%;
+}
+.row12 .ConDataRowChild:nth-child(3){
+    width: 33.33%;
+}
+
+.row12 .ConDataRowChild .cardImg{
+    box-sizing: border-box;
+}
+.row12 .ConDataRowChild .cardImg img{
+    width: 100%;
+    height: 240px;
+}
+.row12 .ConDataRowChild .card{
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.row12 .ConDataRowChild .cardTitle a{
+    display: -webkit-flex;
+    -webkit-justify-content: space-between;
+    /* -webkit-align-items: center; */
+}
+.row12 .ConDataRowChild .cardTitle a h5{
+    font-size:24px;
+    color: #333;
+    line-height: 40px;
+}
+.row12 .ConDataRowChild .cardTitle a .iconfont{
+    color: #333;
+    font-size:24px;
+    font-weight: 700;
+}
+.row12 .ConDataRowChild .card .cardLink{
+    color:#33a3dd;
+    line-height: 30px;
+}
+.row12 .ConDataRowChild .card .cardLink:hover{
+    text-decoration: underline;
+}
+.row13 .ConDataRowChild:first-child{
+    width: 50%;
+}
+.row13 .ConDataRowChild:last-child{
+    width: 50%;
+}
+.row13 .ConDataRowChild .percent{
+    padding:10px 20px;
+    box-sizing: border-box;
+}
+.row13 .ConDataRowChild .BasicTabsTitle{
+    box-shadow:0 1px 3px 0 rgba(0,0,0,.2),
+    0 1px 1px 0 rgba(0,0,0,.14),
+    0 2px 1px -1px rgba(0,0,0,.12);
+}
+.row13 .ConDataRowChild .BasicTabsTitle li{
+    display: -webkit-flex;
+    -webkit-align-items: center;
+    border: 1px solid #dddddd;
+    border-bottom: none;
+    padding: 20px 15px;
+    cursor: pointer;
+}
+.row13 .ConDataRowChild .BasicTabsTitle li:last-child{
+    border-bottom:1px solid #dddddd;
+}
+.row13 .ConDataRowChild .BasicTabsTitle li .iconfont{
+    margin-right: 15px;
+    font-size: 16px;
+}
+.row13 .ConDataRowChild .tabsTitle{
+    box-sizing: border-box;
+    width: 100%;
+    padding: 0 15px;
+}
+.row13 .ConDataRowChild .tabsTitle ul{
+    display: -webkit-flex;
+    /* width: 100%; */
+}
+.row13 .ConDataRowChild .tabsTitle li{
+    width: 100%;
+}
+.row13 .ConDataRowChild .tabsTitle ul a{
+    padding: 25%;
+    background: #eaeaea;
+    color: #ff5722;
+    display: block;
+}
+.row13 .ConDataRowChild .tabsTitle ul a:hover{
+    background: #ff5722;
+    color: #fff;
+    text-decoration: underline;
+}
+.row13 .ConDataRowChild .tabsCon{
+    padding:15px;
+    line-height: 25px;
+}
+
+@media screen and (max-width: 760px){
+    .mainCon .row11 .ConDataRowChild{
+        width: 100%;
+    }
+    .mainCon .row12 .ConDataRowChild{
+        width: 100%;
+    }
+    .mainCon .row13 .ConDataRowChild{
+        width: 100%;
+    }
+}
